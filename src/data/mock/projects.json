@@ -1,0 +1,971 @@
+[
+  {
+    "id": "prj-01",
+    "slug": "burj-quaid",
+    "name": "Burj Quaid",
+    "tagline": "Where Pakistan touches the sky.",
+    "city": "Karachi",
+    "location": "DHA City Karachi",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "Soaring 941 feet above the Karachi skyline, Burj Quaid is destined to be Pakistan’s tallest skyscraper and a definitive architectural marvel.",
+    "image": "/assets/projects/burj-quaid.webp",
+    "facts": [
+      {
+        "label": "Height",
+        "value": "941 ft"
+      },
+      {
+        "label": "Storeys",
+        "value": "82"
+      },
+      {
+        "label": "Approvals",
+        "value": "CAA · PAA · DHA"
+      },
+      {
+        "label": "Amenities",
+        "value": "100+"
+      }
+    ],
+    "highlights": [
+      "Grand Mall",
+      "5-Star Hotel",
+      "Corporate Offices",
+      "Residential Tower",
+      "Podium",
+      "Pakistan’s tallest mosque"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [
+      {
+        "name": "1 BHK — Type 1",
+        "area": "527 / 660 sq ft"
+      },
+      {
+        "name": "1 BHK — Type 2",
+        "area": "871 / 1,090 sq ft"
+      },
+      {
+        "name": "2 BHK — Type 1",
+        "area": "1,183 / 1,480 sq ft"
+      },
+      {
+        "name": "2 BHK — Type 2",
+        "area": "1,747 / 2,185 sq ft"
+      },
+      {
+        "name": "3 BHK",
+        "area": "1,747 / 2,185 sq ft"
+      },
+      {
+        "name": "3-Bed Penthouse",
+        "area": "2,442 / 3,055 sq ft"
+      },
+      {
+        "name": "4-Bed Penthouse",
+        "area": "Price on call"
+      }
+    ],
+    "connectivity": [
+      "25 mins from Clifton",
+      "25 mins from the Airport",
+      "25 mins from Shahra-e-Faisal",
+      "25 mins from Sea View",
+      "Travel times after completion of the Malir Expressway"
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A tribute to the Quaid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Burj Quaid is a tribute to Quaid-e-Azam Muhammad Ali Jinnah. Rising 941 feet above Karachi’s skyline, the development integrates ultra-luxury residences, state-of-the-art corporate suites, high-end retail boutiques and unparalleled leisure experiences in DHA City Karachi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Approved by the CAA, PAA and DHA, the 82-storey tower brings together a grand mall, a five-star hotel, corporate offices, a residential tower and podium, and the tallest mosque in Pakistan."
+      }
+    ],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "prj-02",
+    "slug": "abs-executive",
+    "name": "ABS Executive",
+    "tagline": "A tribute to vision, ambition and architectural excellence.",
+    "city": "Lahore",
+    "location": "Lahore Ring Road Interchange, near DHA",
+    "category": "residential",
+    "status": "ongoing",
+    "summary": "Rising prominently in the heart of Lahore, ABS Executive is set to become Lahore’s premier executive address and one of the city’s most sought-after residential landmarks.",
+    "image": "/assets/projects/abs-executive.webp",
+    "facts": [
+      {
+        "label": "City",
+        "value": "Lahore"
+      },
+      {
+        "label": "Type",
+        "value": "Luxury residential"
+      },
+      {
+        "label": "Amenities",
+        "value": "50+"
+      }
+    ],
+    "highlights": [
+      "World-class luxury residential development",
+      "Elegantly crafted apartments",
+      "Exceptional lifestyle amenities",
+      "Strategic central location"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court",
+      "Private Lobby",
+      "Grocery Service",
+      "Room Service"
+    ],
+    "unitTypes": [],
+    "connectivity": [
+      "0 mins from Lahore Ring Road Interchange",
+      "2 mins from DHA Phase 4, 5 & 6",
+      "5 mins from Allama Iqbal International Airport",
+      "15 mins from M2 Motorway",
+      "15 mins from Gulberg & Ferozepur Road"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Rising prominently in the heart of Lahore, ABS Executive is set to become Lahore’s premier executive address. Elegantly crafted apartments, exceptional lifestyle amenities and a strategic location beside the Ring Road Interchange make it one of the city’s most sought-after residential landmarks."
+      }
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "prj-03",
+    "slug": "abs-central",
+    "name": "ABS Central",
+    "tagline": "A new symbol of connection, lifestyle and smart investment in Lahore.",
+    "city": "Lahore",
+    "location": "Tarogill Ring Road Interchange, Bahria Town Lahore",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "A 23-storey premium high-rise combining luxury apartments, commercial spaces and modern amenities within a highly connected corridor.",
+    "image": "/assets/projects/abs-central.webp",
+    "facts": [
+      {
+        "label": "Storeys",
+        "value": "23"
+      },
+      {
+        "label": "Use",
+        "value": "Residential & Commercial"
+      },
+      {
+        "label": "Amenities",
+        "value": "50+"
+      }
+    ],
+    "highlights": [
+      "Instant Ring Road access",
+      "Canal Road connectivity",
+      "Close to the airport and DHA",
+      "Close to Bahria Town facilities"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [
+      {
+        "name": "1 BHK — Type 1",
+        "area": "527 / 660 sq ft"
+      },
+      {
+        "name": "1 BHK — Type 2",
+        "area": "871 / 1,090 sq ft"
+      },
+      {
+        "name": "2 BHK — Type 1",
+        "area": "1,183 / 1,480 sq ft"
+      },
+      {
+        "name": "2 BHK — Type 2",
+        "area": "1,747 / 2,185 sq ft"
+      },
+      {
+        "name": "3 BHK",
+        "area": "1,747 / 2,185 sq ft"
+      },
+      {
+        "name": "3-Bed Penthouse",
+        "area": "2,442 / 3,055 sq ft"
+      }
+    ],
+    "connectivity": [
+      "Instant Ring Road access",
+      "Canal Road connectivity",
+      "Proximity to the airport and DHA",
+      "Close to Bahria Town facilities"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "ABS Central is a 23-storey premium high-rise residential and commercial development positioned at a strategic Lahore location. It combines luxury apartments, commercial spaces, modern amenities and investment potential within a highly connected corridor at the Tarogill Ring Road Interchange."
+      }
+    ],
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": "prj-04",
+    "slug": "pearl-one-courtyard-1",
+    "name": "Pearl One Courtyard - 1",
+    "tagline": "Building landmarks. Shaping generations.",
+    "city": "Lahore",
+    "location": "Bahria Town Lahore",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "Ground + 25 storeys with basement parking, a G+5 shopping mall, 1, 2 and 3-bedroom apartments and double-storey penthouses.",
+    "image": "/assets/projects/pearl-one-courtyard-1.webp",
+    "facts": [
+      {
+        "label": "Structure",
+        "value": "G + 25 storeys"
+      },
+      {
+        "label": "Shopping mall",
+        "value": "G + 5 storeys"
+      },
+      {
+        "label": "Parking",
+        "value": "Basement"
+      },
+      {
+        "label": "Amenities",
+        "value": "50+"
+      }
+    ],
+    "highlights": [
+      "G+5 storey shopping mall",
+      "Basement parking",
+      "Double-storey penthouses"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Apartment"
+      },
+      {
+        "name": "Double-Storey Penthouse"
+      }
+    ],
+    "connectivity": [
+      "10 seconds from Winter Land and Food Court",
+      "3 minutes from Bahria Hospital and Imtiaz Mall",
+      "5 minutes from Ring Road, Raiwind Road and Canal Road"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Pearl One Courtyard Tower 1 is a modern residential development by ABS Developers featuring Ground + 25 storeys, basement parking, a G+5-storey shopping mall, and 1, 2 and 3-bedroom apartments along with double-storey penthouses."
+      }
+    ],
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "prj-05",
+    "slug": "pearl-one-courtyard-2",
+    "name": "Pearl One Courtyard - 2",
+    "tagline": "Smart living in Bahria Town Lahore.",
+    "city": "Lahore",
+    "location": "Bahria Town Lahore",
+    "category": "residential",
+    "status": "ongoing",
+    "summary": "A 45-storey residential tower — Punjab’s tallest — built for those who dream of living high above the city with comfort, safety and style.",
+    "image": "/assets/projects/pearl-one-courtyard-2.webp",
+    "facts": [
+      {
+        "label": "Storeys",
+        "value": "45"
+      },
+      {
+        "label": "Distinction",
+        "value": "Punjab’s tallest residential tower"
+      },
+      {
+        "label": "Amenities",
+        "value": "50+"
+      }
+    ],
+    "highlights": [
+      "Exclusively residential",
+      "Peaceful environment",
+      "Modern design"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Penthouse"
+      },
+      {
+        "name": "3-Bed Penthouse"
+      },
+      {
+        "name": "Double-Storey Penthouse"
+      }
+    ],
+    "connectivity": [
+      "10 seconds from Winter Land and Food Court",
+      "3 minutes from Bahria Hospital and Imtiaz Mall",
+      "5 minutes from Ring Road, Raiwind Road and Canal Road"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Pearl One Courtyard Tower 2 is an outstanding residential project by ABS Developers, built for those who dream of living high above the city with comfort, safety and style. The tower offers exclusively residential apartments in a peaceful environment with modern design and more than 50 luxurious amenities."
+      }
+    ],
+    "featured": false,
+    "order": 5
+  },
+  {
+    "id": "prj-06",
+    "slug": "pearl-one-courtyard-3",
+    "name": "Pearl One Courtyard - 3",
+    "tagline": "The third jewel in the Courtyard series.",
+    "city": "Lahore",
+    "location": "Bahria Town Lahore",
+    "category": "residential",
+    "status": "ongoing",
+    "summary": "Rising with cascading greenery and a signature crown above Bahria Town Lahore — 440 residences across 32 floors.",
+    "image": "/assets/projects/pearl-one-courtyard-3.webp",
+    "facts": [
+      {
+        "label": "Floors",
+        "value": "32"
+      },
+      {
+        "label": "Height",
+        "value": "118 m"
+      },
+      {
+        "label": "Residences",
+        "value": "440"
+      },
+      {
+        "label": "Completion",
+        "value": "Q2 2029"
+      }
+    ],
+    "highlights": [
+      "Cascading green architecture",
+      "Signature crown",
+      "Elevated lifestyle spaces"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [],
+    "connectivity": [
+      "Close to Ring Road",
+      "Close to Bahria Hospital",
+      "Easy access to major Lahore landmarks"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "The third jewel in the Courtyard series, Pearl One Courtyard 3 is a premium residential high-rise with 440 thoughtfully planned residences, dramatic green architecture, elevated lifestyle spaces and refined community experiences — combining comfort, luxury, nature and investment value."
+      }
+    ],
+    "featured": false,
+    "order": 6
+  },
+  {
+    "id": "prj-07",
+    "slug": "pearl-one-premium",
+    "name": "Pearl One Premium",
+    "tagline": "Comfort, luxury and convenience in one place.",
+    "city": "Lahore",
+    "location": "Takbeer Block, Bahria Town Lahore",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "An iconic mixed-use development with residential apartments, penthouses and a dedicated shopping mall.",
+    "image": "/assets/projects/pearl-one-premium.webp",
+    "facts": [
+      {
+        "label": "Structure",
+        "value": "G + 25 storeys"
+      },
+      {
+        "label": "Retail",
+        "value": "Dedicated shopping mall"
+      }
+    ],
+    "highlights": [
+      "Dedicated shopping mall",
+      "Luxurious apartments",
+      "Exclusive penthouses",
+      "Modern architecture and high-quality materials"
+    ],
+    "amenities": [
+      "Grand Mosque",
+      "Valet Service",
+      "Fitness Center",
+      "Sauna & Steam Rooms",
+      "Kids Play Area",
+      "Tennis Court",
+      "Jogging Track",
+      "Wellness Spa",
+      "Badminton Court",
+      "Roof-top Garden",
+      "Cycling Tracks",
+      "Secured Parking",
+      "24/7 CCTV",
+      "High-Speed Elevators",
+      "Snooker Room",
+      "Cafes & Restaurants",
+      "BBQ Area",
+      "Smart Door Locks",
+      "24/7 Filtered Water Supply",
+      "Trained Security",
+      "Fire-Fighting Systems",
+      "Table Tennis",
+      "Football Court",
+      "Basketball Court"
+    ],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Penthouse"
+      },
+      {
+        "name": "3-Bed Penthouse"
+      }
+    ],
+    "connectivity": [
+      "Nearest to Bahria Hospital",
+      "Close to supermarkets and commercial zones",
+      "Surrounded by parks and green spaces",
+      "Near Bahria Zoo"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Pearl One Premium is an iconic mixed-use development offering comfort, luxury and convenience all in one place, with residential apartments, penthouses and a dedicated shopping mall built with modern architecture and high-quality materials."
+      }
+    ],
+    "featured": false,
+    "order": 7
+  },
+  {
+    "id": "prj-08",
+    "slug": "pearl-one-capital",
+    "name": "Pearl One Capital",
+    "tagline": "Shariah-compliant living arrives in Islamabad.",
+    "city": "Islamabad",
+    "location": "DHA Islamabad",
+    "category": "mixed-use",
+    "status": "pre-launch",
+    "summary": "A high-rise residential and commercial project in DHA Islamabad with 100 world-class amenities.",
+    "image": "/assets/projects/pearl-one-capital.webp",
+    "facts": [
+      {
+        "label": "City",
+        "value": "Islamabad"
+      },
+      {
+        "label": "Status",
+        "value": "Pre-launch (EOI)"
+      },
+      {
+        "label": "Amenities",
+        "value": "100"
+      }
+    ],
+    "highlights": [
+      "Residential and retail floors",
+      "360° virtual tours for select units",
+      "Detailed floor plans for all types"
+    ],
+    "amenities": [],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Luxury Apartment"
+      },
+      {
+        "name": "1-Bed Penthouse"
+      },
+      {
+        "name": "2-Bed Penthouse"
+      },
+      {
+        "name": "Ground Floor Retail"
+      },
+      {
+        "name": "First Floor Retail / Office"
+      },
+      {
+        "name": "Lower Ground Retail"
+      }
+    ],
+    "connectivity": [],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "ABS Developers brings its Shariah-compliant approach to Islamabad with Pearl One Capital, a high-rise residential and commercial project in DHA Islamabad. Register your interest to receive full project details as they are released."
+      }
+    ],
+    "featured": false,
+    "order": 8
+  },
+  {
+    "id": "prj-09",
+    "slug": "sialkot-central",
+    "name": "Sialkot Central",
+    "tagline": "Redefining business, luxury living and urban excellence in Sialkot.",
+    "city": "Sialkot",
+    "location": "Daska Road, Sialkot",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "A mixed-use business district with luxury apartments, offices, a five-storey grand mall, boutique hotel and Sialkot’s first purpose-built expo centre.",
+    "image": "/assets/projects/sialkot-central.webp",
+    "facts": [
+      {
+        "label": "City",
+        "value": "Sialkot"
+      },
+      {
+        "label": "Mall",
+        "value": "5-storey grand mall"
+      },
+      {
+        "label": "First",
+        "value": "Purpose-built expo centre"
+      }
+    ],
+    "highlights": [
+      "Luxury apartments and duplex penthouses",
+      "Corporate offices",
+      "Bespoke showrooms",
+      "Five-storey grand mall",
+      "Boutique hotel",
+      "Expo centre",
+      "Banquet hall"
+    ],
+    "amenities": [
+      "Entrance Lobby",
+      "Banquet Hall",
+      "Car Parking",
+      "Community Areas"
+    ],
+    "unitTypes": [],
+    "connectivity": [
+      "2 mins from Etihad Town",
+      "Close to City Housing Sialkot",
+      "Near Allied School Shayan Campus"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Rising on prime frontage of Daska Road, Sialkot Central combines luxury apartments, duplex penthouses, corporate offices, bespoke showrooms, a five-storey grand mall, a boutique hotel and Sialkot’s first purpose-built expo centre."
+      }
+    ],
+    "featured": false,
+    "order": 9
+  },
+  {
+    "id": "prj-10",
+    "slug": "pearl-one-royal",
+    "name": "Pearl One Royal",
+    "tagline": "Smart living on the Main Boulevard.",
+    "city": "Lahore",
+    "location": "120 ft Main Boulevard, Bahria Town Lahore",
+    "category": "residential",
+    "status": "ongoing",
+    "summary": "An exclusive residential tower designed for smart living, premium comfort and Shariah-compliant investment.",
+    "image": "/assets/projects/pearl-one-royal.webp",
+    "facts": [
+      {
+        "label": "Type",
+        "value": "Smart residential tower"
+      },
+      {
+        "label": "Frontage",
+        "value": "120 ft Main Boulevard"
+      }
+    ],
+    "highlights": [
+      "Premium lobby with central courtyard",
+      "Rooftop garden",
+      "Smart access technology",
+      "Luxury apartments and penthouses"
+    ],
+    "amenities": [
+      "Premium Lobby",
+      "Central Courtyard",
+      "Rooftop Garden",
+      "Smart Access"
+    ],
+    "unitTypes": [
+      {
+        "name": "One Bedroom"
+      },
+      {
+        "name": "Two Bedroom"
+      }
+    ],
+    "connectivity": [
+      "Near Bahria International School",
+      "Near Bahria Head Office",
+      "Near Bahria Hospital"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Positioned on the prestigious Main Boulevard of Bahria Town Lahore, Pearl One Royal is an exclusive residential tower with functional design, efficient space planning and elevated family living."
+      }
+    ],
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "prj-11",
+    "slug": "abs-mall-residency-2",
+    "name": "ABS Mall & Residency - 2",
+    "tagline": "Shopping, comfort and luxury together.",
+    "city": "Lahore",
+    "location": "Ring Road Interchange, Bahria Town Lahore",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "Ground + 16 storeys combining retail with 1, 2 and 3-bedroom apartments and luxurious penthouses.",
+    "image": "/assets/projects/abs-mall-residency-2.webp",
+    "facts": [
+      {
+        "label": "Structure",
+        "value": "G + 16 storeys"
+      },
+      {
+        "label": "Use",
+        "value": "Retail & residential"
+      }
+    ],
+    "highlights": [
+      "Ring Road Interchange location",
+      "360° virtual tours for select units"
+    ],
+    "amenities": [],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Apartment"
+      },
+      {
+        "name": "Penthouse"
+      }
+    ],
+    "connectivity": [
+      "At the Ring Road Interchange, Bahria Town Lahore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "ABS Mall & Residency 2 offers a complete lifestyle experience where shopping, comfort and luxury come together, combining retail space with residential units at the Ring Road Interchange."
+      }
+    ],
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "prj-12",
+    "slug": "abs-mall-residency-1",
+    "name": "ABS Mall & Residency - 1",
+    "tagline": "Luxury living and modern shopping in one place.",
+    "city": "Lahore",
+    "location": "Ring Road Interchange, Bahria Town Lahore",
+    "category": "mixed-use",
+    "status": "ongoing",
+    "summary": "Ground + 9 storeys with a shopping mall on the lower floors and apartments and penthouses above.",
+    "image": "/assets/projects/abs-mall-residency-1.webp",
+    "facts": [
+      {
+        "label": "Structure",
+        "value": "G + 9 storeys"
+      },
+      {
+        "label": "Use",
+        "value": "Retail, office & residential"
+      }
+    ],
+    "highlights": [
+      "Shopping mall on lower floors",
+      "Retail outlets and office spaces",
+      "360° virtual tours available"
+    ],
+    "amenities": [],
+    "unitTypes": [
+      {
+        "name": "1-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Apartment"
+      },
+      {
+        "name": "3-Bed Apartment"
+      },
+      {
+        "name": "2-Bed Penthouse"
+      },
+      {
+        "name": "Penthouse"
+      }
+    ],
+    "connectivity": [
+      "Near Ring Road Interchange",
+      "Opposite ABS Mall & Residency 2"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "ABS Mall & Residency 1 is designed to offer both luxury living and modern shopping in one place, with retail on the lower floors and residential units above."
+      }
+    ],
+    "featured": false,
+    "order": 12
+  },
+  {
+    "id": "prj-13",
+    "slug": "pearl-one-tower",
+    "name": "Pearl One Tower",
+    "tagline": "A new benchmark of luxury, comfort and modern living in Lahore.",
+    "city": "Lahore",
+    "location": "Iqbal Block, Bahria Town Lahore",
+    "category": "residential",
+    "status": "completed",
+    "summary": "One of ABS Developers’ landmark residential projects — completed, delivered and ready for immediate possession.",
+    "image": "/assets/projects/pearl-one-tower.webp",
+    "facts": [
+      {
+        "label": "Status",
+        "value": "Completed"
+      },
+      {
+        "label": "Delivered",
+        "value": "January 2024"
+      },
+      {
+        "label": "Possession",
+        "value": "Immediate"
+      }
+    ],
+    "highlights": [
+      "Thoughtfully planned apartments",
+      "High-speed elevators",
+      "Dedicated residential lobbies",
+      "Fitness facilities",
+      "Modern lifestyle services"
+    ],
+    "amenities": [
+      "High-Speed Elevators",
+      "Residential Lobbies",
+      "Fitness Center"
+    ],
+    "unitTypes": [],
+    "connectivity": [
+      "Easy access to major roads",
+      "Close to commercial and lifestyle destinations",
+      "Peaceful residential surroundings"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Standing as one of ABS Developers’ landmark residential projects, Pearl One Tower has redefined premium urban living with its exceptional design, world-class amenities and prime location. Completed and delivered in January 2024, it is also home to the ABS head office."
+      }
+    ],
+    "featured": false,
+    "order": 13
+  }
+]

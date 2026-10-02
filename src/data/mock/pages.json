@@ -1,0 +1,273 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Burj Quaid · Pakistan",
+      "title": "The Tallest Tower",
+      "titleAccent": "Of Pakistan",
+      "text": "Soaring 941 feet above the Karachi skyline, Burj Quaid is destined to be Pakistan’s tallest skyscraper and a definitive architectural marvel.",
+      "badge": {
+        "value": "941 ft",
+        "label": "Flagship Height"
+      },
+      "image": "/assets/hero/burj-quaid-skyline.webp",
+      "imageAlt": "Burj Quaid rising above the Karachi skyline",
+      "primary": {
+        "label": "Explore Developments",
+        "href": "/projects"
+      },
+      "secondary": {
+        "label": "Our Vision",
+        "href": "/about"
+      }
+    },
+    "stats": [
+      {
+        "id": "developments",
+        "value": 13,
+        "suffix": "+",
+        "label": "Developments"
+      },
+      {
+        "id": "height",
+        "value": 941,
+        "suffix": " ft",
+        "label": "Flagship Height"
+      },
+      {
+        "id": "presence",
+        "value": null,
+        "display": "Multi City",
+        "suffix": "",
+        "label": "Presence"
+      },
+      {
+        "id": "shariah",
+        "value": 100,
+        "suffix": "%",
+        "label": "Shariah Focused"
+      }
+    ],
+    "projects": {
+      "eyebrow": "Explore",
+      "title": "Discover every address.",
+      "intro": "Explore ABS developments through a visual portfolio designed to make every project easy to discover."
+    },
+    "interest": {
+      "eyebrow": "Contact",
+      "title": "Find your next address.",
+      "intro": "Tell us what you are looking for and our team can guide you toward the ABS development that best fits your needs."
+    },
+    "insights": {
+      "eyebrow": "ABS Journal",
+      "title": "Ideas shaping better places."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "Building landmarks. Shaping generations.",
+      "intro": "Creating enduring real estate through architecture, ambition and responsible development."
+    },
+    "story": {
+      "heading": {
+        "eyebrow": "01 / Our Story",
+        "title": "People first, then places."
+      },
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "A successful real-estate company owes its achievements to its people, and ABS Developers is built around that principle."
+        },
+        {
+          "type": "paragraph",
+          "text": "From Pearl One Tower in Bahria Town Lahore to Burj Quaid in Karachi, our portfolio spans residential, commercial and mixed-use developments across Lahore, Karachi, Islamabad and Sialkot."
+        }
+      ]
+    },
+    "stats": [
+      {
+        "id": "developments",
+        "value": 13,
+        "suffix": "+",
+        "label": "Developments"
+      },
+      {
+        "id": "height",
+        "value": 941,
+        "suffix": " ft",
+        "label": "Flagship Height"
+      },
+      {
+        "id": "presence",
+        "value": null,
+        "display": "Multi City",
+        "suffix": "",
+        "label": "Presence"
+      },
+      {
+        "id": "shariah",
+        "value": 100,
+        "suffix": "%",
+        "label": "Shariah Focused"
+      }
+    ],
+    "leadership": {
+      "eyebrow": "02 / Leadership",
+      "title": "Man behind the vision",
+      "intro": "Our leadership team brings expertise across real estate, construction and operations."
+    },
+    "values": {
+      "heading": {
+        "eyebrow": "03 / Principles",
+        "title": "How we build.",
+        "intro": "Every ABS project follows the same Shariah-compliant commitments."
+      },
+      "items": [
+        {
+          "id": "no-price-difference",
+          "title": "No Price Difference",
+          "text": "ABS Developers believes in a Riba-free policy. Whether you pay full cash at once or follow our installment plan, the agreed price remains the same."
+        },
+        {
+          "id": "zero-late-fees",
+          "title": "Zero Late Fees",
+          "text": "We do not charge late-payment fees. We aim to make residential and commercial property acquisition simpler and more considerate for our clients."
+        },
+        {
+          "id": "lab-tested-material",
+          "title": "Use of Lab-Tested Material",
+          "text": "We use meticulously lab-tested construction materials to support structural strength, quality and long-term durability across our developments."
+        },
+        {
+          "id": "field-surveillance",
+          "title": "Diligent Field Surveillance",
+          "text": "Senior staff and highly qualified engineers personally oversee construction activity and invest significant time on-site to maintain high standards of workmanship and quality control."
+        },
+        {
+          "id": "on-time-delivery",
+          "title": "On-Time Delivery",
+          "text": "ABS Developers follows a pragmatic and honest approach, with a commitment to delivering projects and granting possession within the promised timelines."
+        }
+      ]
+    }
+  },
+  "shariah": {
+    "hero": {
+      "eyebrow": "Shariah Compliant",
+      "title": "Shariah-compliant development",
+      "intro": "Our development approach is guided by clarity, fairness, quality and responsible delivery."
+    },
+    "principles": {
+      "heading": {
+        "eyebrow": "01 / Principles",
+        "title": "Built on principles.",
+        "intro": "These principles shape how ABS Developers approaches every residential and commercial project."
+      },
+      "items": [
+        {
+          "id": "no-price-difference",
+          "title": "No Price Difference",
+          "text": "ABS Developers believes in a Riba-free policy. Whether you pay full cash at once or follow our installment plan, the agreed price remains the same."
+        },
+        {
+          "id": "zero-late-fees",
+          "title": "Zero Late Fees",
+          "text": "We do not charge late-payment fees. We aim to make residential and commercial property acquisition simpler and more considerate for our clients."
+        },
+        {
+          "id": "lab-tested-material",
+          "title": "Use of Lab-Tested Material",
+          "text": "We use meticulously lab-tested construction materials to support structural strength, quality and long-term durability across our developments."
+        },
+        {
+          "id": "field-surveillance",
+          "title": "Diligent Field Surveillance",
+          "text": "Senior staff and highly qualified engineers personally oversee construction activity and invest significant time on-site to maintain high standards of workmanship and quality control."
+        },
+        {
+          "id": "on-time-delivery",
+          "title": "On-Time Delivery",
+          "text": "ABS Developers follows a pragmatic and honest approach, with a commitment to delivering projects and granting possession within the promised timelines."
+        }
+      ]
+    },
+    "commitment": {
+      "eyebrow": "Our Commitment",
+      "title": "A better way to build.",
+      "intro": "By following a Shariah-compliant policy, we strive to foster a beautiful living community where residents can enjoy the amenities and value they have paid for. ABS Developers remains committed to transparent, responsible and principled real-estate development."
+    }
+  },
+  "projects": {
+    "eyebrow": "Our Projects",
+    "title": "Building landmarks. Shaping generations.",
+    "intro": "Explore ABS developments through a visual portfolio designed to make every project easy to discover. Each project has a distinct identity, location and purpose."
+  },
+  "insights": {
+    "eyebrow": "ABS Journal",
+    "title": "Insights & perspectives.",
+    "intro": "Property, construction, investment and lifestyle insights from the ABS Developers journal."
+  },
+  "live": {
+    "hero": {
+      "eyebrow": "Live",
+      "title": "Watch progress unfold.",
+      "intro": "Follow live construction views from ABS Developers projects and see progress as it happens."
+    },
+    "featuredProjectSlug": "pearl-one-capital",
+    "note": "Live availability and individual camera views may vary depending on site connectivity."
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "Let’s talk about your next address.",
+    "intro": "Sales, project information, support, payments, complaints and general queries — all handled through one official ABS Developers number."
+  },
+  "privacy": {
+    "hero": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "intro": "How ABS Developers handles the information you share with us."
+    },
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Information we collect"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you register your interest or contact us, we collect the details you provide: your name, email, phone and WhatsApp numbers, the project and unit type you are interested in, and your message."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we use it"
+      },
+      {
+        "type": "list",
+        "items": [
+          "To respond to your enquiry and share project information",
+          "To arrange site visits and follow-ups you request",
+          "To improve our services"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Sharing"
+      },
+      {
+        "type": "paragraph",
+        "text": "We do not sell your personal information. We share it only with staff and service providers who need it to respond to your enquiry."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Contact"
+      },
+      {
+        "type": "paragraph",
+        "text": "For any privacy question, email info@abs-developers.com or call 03-222-333-332."
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "ABS Developers",
+  "tagline": "Building landmarks. Shaping generations.",
+  "description": "Creating enduring real estate through architecture, ambition and responsible development.",
+  "country": "Pakistan",
+  "email": "info@abs-developers.com",
+  "phone": "03-222-333-332",
+  "phoneHref": "tel:+923222333332",
+  "whatsappHref": "https://wa.me/923222333332",
+  "headOffice": {
+    "id": "head-office",
+    "label": "Pearl One Tower · Lahore",
+    "address": "Ground Floor, Pearl One Tower, Iqbal Block, Bahria Town",
+    "city": "Lahore"
+  },
+  "channels": [
+    {
+      "id": "phone",
+      "label": "Official Helpline",
+      "value": "03-222-333-332",
+      "href": "tel:+923222333332",
+      "note": "One official number for every ABS Developers enquiry."
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "value": "03-222-333-332",
+      "href": "https://wa.me/923222333332",
+      "note": "Message the same official ABS Developers number."
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "value": "info@abs-developers.com",
+      "href": "mailto:info@abs-developers.com",
+      "note": "General, project and customer enquiries."
+    }
+  ],
+  "social": [
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/absdevelopers"
+    },
+    {
+      "platform": "facebook",
+      "label": "Facebook",
+      "href": "https://www.facebook.com/absdevelopers"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://pk.linkedin.com/company/absdevelopers"
+    }
+  ]
+}

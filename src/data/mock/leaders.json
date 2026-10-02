@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ldr-01",
+    "name": "Dr Subayyal Ikram",
+    "role": "CEO / Owner",
+    "bio": "Leadership shaped by experience, ambition and a long-term commitment to ABS Developers.",
+    "order": 1
+  },
+  {
+    "id": "ldr-02",
+    "name": "Dr Humbal Ikram",
+    "role": "Managing Director, Board of Directors",
+    "bio": "Leadership shaped by experience, ambition and a long-term commitment to ABS Developers.",
+    "order": 2
+  }
+]

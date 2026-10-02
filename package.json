@@ -1,26 +1,38 @@
 {
-  "name": "absdevelopers",
+  "name": "abs-developers",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --hostname 127.0.0.1 --port 3120",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start --hostname 127.0.0.1 --port 3120",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/services.test.ts",
+    "lint": "eslint",
+    "verify:routes": "node scripts/verify-routes.mjs",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" src/styles/globals.css \"tests/**/*.ts\"",
+    "verify:nav": "node scripts/verify-navigation.mjs"
   },
   "dependencies": {
+    "lucide-react": "^1.49.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
-    "tailwindcss": "^4",
+    "playwright": "^1.63.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }

@@ -208,8 +208,12 @@ ol {
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 18px 20px;
-  background: var(--color-background);
+  padding: 14px 20px;
+  background: rgba(247, 245, 241, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 .site-header__inner {
   display: flex;
@@ -1810,6 +1814,583 @@ textarea.form-field__control {
   .float-badge {
     left: -12px;
     padding: 14px 18px;
+  }
+}
+
+/* ---------- Pearl Capital: Apple-Style Interactive Image-Sequence Hero ---------- */
+.pearl-hero {
+  position: relative;
+  width: 100%;
+  height: 480vh;
+  background: #080a09;
+  color: #ffffff;
+  /* Ensure parent does not clip sticky */
+  overflow: visible;
+}
+
+.pearl-hero__sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: calc(var(--header-height, 92px) + 6px) clamp(20px, 4vw, 54px) 24px clamp(20px, 4vw, 54px);
+  background: radial-gradient(circle at 65% 50%, #151d19 0%, #0a0d0c 68%, #050706 100%);
+  box-sizing: border-box;
+}
+
+.pearl-hero__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Ambient Radial Glows */
+.pearl-hero__glow {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(100px);
+  z-index: 2;
+  opacity: 0.6;
+}
+.pearl-hero__glow--top {
+  top: -10%;
+  left: 35%;
+  width: 50vw;
+  height: 50vh;
+  background: radial-gradient(circle, rgba(201, 166, 107, 0.16) 0%, transparent 70%);
+}
+.pearl-hero__glow--accent {
+  bottom: -10%;
+  right: 5%;
+  width: 45vw;
+  height: 45vh;
+  background: radial-gradient(circle, rgba(46, 88, 71, 0.22) 0%, transparent 70%);
+}
+
+/* Top Architectural HUD */
+.pearl-hero__hud-top {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  pointer-events: none;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.pearl-hud-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(247, 245, 241, 0.72);
+}
+
+.pearl-hud-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c9a66b;
+  box-shadow: 0 0 10px #c9a66b;
+  animation: pearlPulseDot 2.2s infinite ease-in-out;
+}
+
+@keyframes pearlPulseDot {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 1;
+    box-shadow: 0 0 14px #e7c98a;
+  }
+}
+
+.pearl-hud-sep {
+  opacity: 0.4;
+}
+
+.pearl-hud-value {
+  color: #e7c98a;
+}
+
+.pearl-hud-coords {
+  color: rgba(247, 245, 241, 0.9);
+}
+
+.pearl-hud-badge {
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(201, 166, 107, 0.12);
+  border: 1px solid rgba(201, 166, 107, 0.32);
+  color: #e7c98a;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+/* Stage Typography Overlay Container */
+.pearl-hero__stage-wrapper {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.pearl-hero__stage-card {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-width: 580px;
+  padding: clamp(24px, 3.2vw, 38px);
+  border-radius: 26px;
+  background: rgba(11, 15, 13, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(201, 166, 107, 0.24);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: opacity 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Eyebrow Badge */
+.pearl-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: rgba(201, 166, 107, 0.14);
+  border: 1px solid rgba(201, 166, 107, 0.35);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #e7c98a;
+  margin-bottom: 14px;
+}
+
+.pearl-eyebrow__indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #e7c98a;
+  box-shadow: 0 0 8px #e7c98a;
+}
+
+.pearl-stage-title {
+  font-family: var(--font-heading);
+  font-size: clamp(32px, 4.4vw, 52px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.pearl-stage-title__accent {
+  background: linear-gradient(135deg, #ffffff 10%, #e7c98a 55%, #c9a66b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.pearl-stage-subtitle {
+  font-family: var(--font-heading);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d8d5cc;
+  margin: 0 0 14px 0;
+}
+
+.pearl-stage-desc {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: rgba(247, 245, 241, 0.84);
+  margin: 0 0 18px 0;
+  max-width: 500px;
+}
+
+.pearl-stage-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.pearl-pill {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #d8d5cc;
+}
+
+.pearl-stage-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 22px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pearl-stat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.pearl-stat-val {
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 700;
+  color: #e7c98a;
+}
+
+.pearl-stat-lbl {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(247, 245, 241, 0.55);
+  margin-top: 2px;
+}
+
+.pearl-stage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  pointer-events: auto;
+}
+
+.pearl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: var(--radius-pill);
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.22s var(--ease), box-shadow 0.22s var(--ease), background 0.22s;
+}
+
+.pearl-btn--gold {
+  background: linear-gradient(135deg, #e7c98a 0%, #c9a66b 100%);
+  color: #080a09;
+  box-shadow: 0 8px 24px rgba(201, 166, 107, 0.32);
+}
+
+.pearl-btn--gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(201, 166, 107, 0.48);
+}
+
+.pearl-btn--glass {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.pearl-btn--glass:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+/* Vertical Milestones Navigation (Right Edge) */
+.pearl-hero__milestones {
+  position: absolute;
+  right: clamp(20px, 3.5vw, 48px);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+
+.pearl-milestone-track {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pearl-milestone-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px 0;
+  color: rgba(247, 245, 241, 0.4);
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.25s, transform 0.25s;
+}
+
+.pearl-milestone-btn:hover {
+  color: #ffffff;
+  transform: translateX(-4px);
+}
+
+.pearl-milestone-btn.is-active {
+  color: #e7c98a;
+}
+
+.pearl-milestone-pip {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+
+.pearl-milestone-btn.is-active .pearl-milestone-pip {
+  background: #c9a66b;
+  transform: scale(1.6);
+  box-shadow: 0 0 10px #c9a66b;
+}
+
+/* Bottom Interactive HUD Bar */
+.pearl-hero__hud-bottom {
+  position: relative;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 22px;
+  border-radius: var(--radius-pill);
+  background: rgba(11, 15, 13, 0.75);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  pointer-events: auto;
+  max-width: var(--container-max);
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+}
+
+.pearl-hud-control {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.pearl-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  background: rgba(201, 166, 107, 0.15);
+  border: 1px solid rgba(201, 166, 107, 0.35);
+  color: #e7c98a;
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.pearl-play-btn:hover {
+  background: rgba(201, 166, 107, 0.28);
+  transform: translateY(-1px);
+}
+
+.pearl-play-btn.is-playing {
+  background: #c9a66b;
+  color: #080a09;
+}
+
+.pearl-hud-scrub-text {
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(247, 245, 241, 0.7);
+  white-space: nowrap;
+}
+
+.pearl-scrubber {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.pearl-scrubber__track {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.14);
+  overflow: visible;
+}
+
+.pearl-scrubber__fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #c9a66b, #e7c98a);
+  box-shadow: 0 0 12px rgba(201, 166, 107, 0.6);
+  transition: width 0.08s linear;
+}
+
+.pearl-scrubber__thumb {
+  position: absolute;
+  top: 50%;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #c9a66b;
+  box-shadow: 0 0 10px #e7c98a;
+  transform: translate(-50%, -50%);
+  transition: left 0.08s linear;
+}
+
+.pearl-scroll-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: #e7c98a;
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.pearl-bounce-icon {
+  animation: pearlBounce 1.8s infinite ease-in-out;
+}
+
+@keyframes pearlBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.pearl-preload-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #e7c98a;
+}
+
+.pearl-preload-spinner {
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(201, 166, 107, 0.3);
+  border-top-color: #e7c98a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .pearl-hero__milestones .pearl-milestone-label {
+    display: none;
+  }
+  .pearl-hero__stage-card {
+    max-width: 500px;
+    padding: 24px;
+  }
+  .pearl-hud-item--coords {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .pearl-hero {
+    height: 400vh;
+  }
+  .pearl-hero__sticky {
+    padding: calc(var(--header-height, 80px) + 6px) 16px 16px 16px;
+  }
+  .pearl-hero__stage-card {
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .pearl-stage-title {
+    font-size: clamp(24px, 6.5vw, 32px);
+  }
+  .pearl-stage-desc {
+    font-size: 13.5px;
+    margin-bottom: 14px;
+  }
+  .pearl-stage-stats {
+    gap: 8px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+  }
+  .pearl-stat-val {
+    font-size: 13px;
+  }
+  .pearl-hero__milestones {
+    display: none;
+  }
+  .pearl-hero__hud-bottom {
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    padding: 10px 14px;
+  }
+  .pearl-hud-status {
+    display: none;
+  }
+  .pearl-hud-item--frame {
+    display: none;
   }
 }
 
